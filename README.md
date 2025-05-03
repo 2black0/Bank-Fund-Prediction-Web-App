@@ -21,17 +21,17 @@ Here’s a recommended scalable structure:
 
 ```
 
-bank-fund-app/
-├── app.py                     # Main Flask app
-├── model/
-│   └── model.sav              # Serialized ML model
-├── templates/
-│   └── index.html             # Web template (Tailwind CSS)
-├── static/                    # Place for static files (optional)
-├── requirements.txt           # Pip dependencies
-├── environment.yml            # Conda environment file
-├── Procfile                   # For deployment
+Bank-Fund-Prediction-Web-App/
 ├── LICENSE
+├── Project
+│   ├── app.py
+│   ├── environment.yml
+│   ├── model
+│   │   └── model.sav
+│   ├── Procfile
+│   ├── requirements.txt
+│   └── templates
+│       └── index.html
 └── README.md
 
 ```
